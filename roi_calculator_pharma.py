@@ -41,7 +41,7 @@ st.pyplot(fig)
 provider_analytics_data = {
     "Top Submitters": ["Amelia Thompson", "Samuel Robinson", "Olivia Martinez"],
     "Top Denials": ["Benjamin Clark", "Sophia Johnson", "Mason Williams"],
-    "Top Competing Submitters": ["Ava Lewis", "Liam Wilson", "Isabella Davis"]
+    "Top Submitters of Competing Products": ["Ava Lewis", "Liam Wilson", "Isabella Davis"]
 }
 
 # Creating a DataFrame from the hardcoded data
