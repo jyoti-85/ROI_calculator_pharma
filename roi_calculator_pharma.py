@@ -22,8 +22,8 @@ competitor_approvals = sample_data["Competitor_Approvals"]
 
 # Creating the graph
 fig, ax = plt.subplots()
-ax.plot(quarters, submissions, label='Number of Submissions', marker='o')
-ax.plot(quarters, approvals, label='Number of Approvals', marker='o')
+ax.plot(quarters, submissions, label='Submissions', marker='o')
+ax.plot(quarters, approvals, label='Approvals', marker='o')
 ax.plot(quarters, competitor_approvals, label='Competitor Approvals', marker='o')
 
 ax.set_xlabel('Quarters')
