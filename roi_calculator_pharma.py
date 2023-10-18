@@ -6,9 +6,9 @@ import random
 # Hardcoded sample data
 sample_data = {
     "Quarters": ["Y1Q1", "Y1Q2", "Y1Q3", "Y1Q4", "Y2Q1"],
-    "Submissions": [100, 200, 300, 400, 500],
-    "Approvals": [50, 100, 150, 200, 250],
-    "Competitor_Approvals": [100, 95, 90, 85, 80]
+    "Submissions": [100, 180, 150, 275, 370],
+    "Approvals": [50, 98, 90, 128, 185],
+    "Competitor_Approvals": [95, 150, 250, 200, 285]
 }
 
 # Streamlit interface
@@ -46,6 +46,9 @@ provider_analytics_data = {
 
 # Creating a DataFrame from the hardcoded data
 df_provider_analytics = pd.DataFrame(provider_analytics_data)
+
+# Setting the index of the DataFrame to start from 1
+df_provider_analytics.index = df_provider_analytics.index + 1
 
 # Streamlit interface for displaying the table
 st.title('Provider Analytics')
