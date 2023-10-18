@@ -8,7 +8,7 @@ sample_data = {
     "Quarters": ["Y1Q1", "Y1Q2", "Y1Q3", "Y1Q4", "Y2Q1"],
     "Submissions": [100, 180, 150, 275, 370],
     "Approvals": [50, 98, 90, 128, 185],
-    "Competitor_Approvals": [95, 150, 250, 200, 285]
+    "Competitor_Approvals": [65, 90, 78, 100, 128]
 }
 
 # Streamlit interface
